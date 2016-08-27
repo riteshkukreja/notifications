@@ -1,0 +1,58 @@
+/**
+ *	ALERT CSS
+ *	Holds all the styles for the notification alert elements
+ */
+
+body, html {
+	background: #CCC;
+	margin: 0;
+	overflow: hidden;
+}
+
+#notifications {
+	position: fixed;
+	bottom: 2%;
+	right: 5%;
+	clear: both;
+
+	width: 30%;
+	height: auto;
+}
+
+.alert {
+	width: 100%;
+	height: auto;
+
+	padding: 20px;
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-left: 15px solid rgba(0, 0, 0, .22);
+
+	transition: all 0.2s ease-in;
+	-webkit-transition: all 0.2s ease-in;
+}
+
+.alert h2 {
+	display: block;
+	font-weight: bolder;
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+}
+
+.alert p {
+	display: block;
+	font-size: 14px;
+	text-align: justify;
+	text-justify: inner-word;
+
+	margin: 0;
+	padding: 0;
+}
+
+.alert span {
+	display: inline-block;
+	float: right;
+	font-size: 12px;
+}

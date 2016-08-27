@@ -1,0 +1,40 @@
+/**
+ *	COLORS CSS
+ *	Holds color for the alerts
+ */
+
+.deep-purple {
+	background-color:#673AB7;
+	color: #EEE;
+}
+
+.blue {
+	background-color: #069;
+	color: #EEE;
+}
+
+.red {
+	background-color: #D32F2F;
+	color: #EEE;
+}
+
+
+.indigo {
+	background-color: #3F51B5;
+	color: #EEE;
+}
+
+.light-blue {
+	background-color: #2196F3;
+	color: #EEE;
+}
+
+.teal {
+	background-color: #009688;
+	color: #EEE;
+}
+
+.orange {
+	background-color: #FF5722;
+	color: #EEE;
+}
